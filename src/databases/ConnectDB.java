@@ -94,7 +94,7 @@ public class ConnectDB {
         return dataList;
     }
 
-    public void insertDataFromArrayToMySql(int [] ArrayData, String tableName, String columnName)
+    public void insertDataFromArrayToMySql(int[] ArrayData, String tableName, String columnName)
     {
         try {
             connectToMySql();

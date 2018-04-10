@@ -1,5 +1,10 @@
 package math;
 
+import databases.ConnectDB;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Pattern {
 
 	public static void main(String[] args) {
@@ -38,11 +43,6 @@ public class Pattern {
 				}
 			}
 		}
-		
-
-		
-		
-		
 
 	}
 }
