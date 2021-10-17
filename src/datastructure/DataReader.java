@@ -24,49 +24,8 @@ public class DataReader {
 		 * Use For Each loop/while loop/Iterator to retrieve data.
 		 */
 
-		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
+		//implementation here
 
-		FileReader fileReader = null;
-		BufferedReader bufferedReader = null;
-		//file reader (open file)
-		try {
-			fileReader = new FileReader("/Users/nacer-zimu/IdeaProjects/MidtemMarch2018/src/data/self-driving-car");
-		}catch (Exception ex){
-			ex.printStackTrace();
-		}
-		//buffer reader (read file)
-		try {
-			bufferedReader = new BufferedReader(fileReader);
-			String str = " ";
-			while ((str = bufferedReader.readLine()) != null){
-				System.out.println(str);
-			}
-		}catch (Exception ex){
-			ex.printStackTrace();
-		}
-		//close file
-		finally {
-			if(fileReader != null){
-				try {
-					fileReader.close();
-					fileReader = null;
-				}catch (Exception ex){
-					ex.printStackTrace();
-				}
-			}
-			if(bufferedReader != null){
-				try {
-					bufferedReader.close();
-					bufferedReader = null;
-				}catch (Exception ex){
-					ex.printStackTrace();
-				}
-			}
-
-
-
-		}
-
-}
+	}
 }
 

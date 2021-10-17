@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/mysql-connector-java-5.1.41-bin.jar!/" />
+          <root url="jar://$MODULE_DIR$/library/testng-6.8.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/mongo-java-driver-3.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/library/mongo-java-driver-3.4.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,23 +28,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/driver/mysql-connector-java-6.0.6-bin.jar!/" />
+          <root url="jar://$MODULE_DIR$/library/mysql-connector-java-8.0.25.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/testng-6.8.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="mysql-connector-java-5.1.41-bin" level="project" />
-    <orderEntry type="library" name="mongo-java-driver-3.4.0" level="project" />
-    <orderEntry type="library" name="testng-6.8.5" level="project" />
   </component>
 </module>

@@ -14,15 +14,11 @@ public class Permutation {
          */
         permutation(" ", "ABC");
     }
+
     private static void permutation(String prefix, String str) {
-        int a = str.length();
-        if (a == 0){
-            System.out.println(prefix);
-        }
-        else {
-            for (int i = 0; i < a; i++) {
-                permutation(prefix + str.charAt(i), str.substring(0, i) + str.substring(i + 1, a));
-            }
-        }
+
+        //implementation here...
+
+
     }
 }

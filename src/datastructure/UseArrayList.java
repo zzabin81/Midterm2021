@@ -14,29 +14,11 @@ public class UseArrayList {
 		 * Store all the sorted data into one of the databases.
 		 * 
 		 */
-		ArrayList<String> car = new ArrayList<String>();
-		car.add("Blue");
-		car.add("AC");
-		car.add("ABS");
-		car.add("Turbo");
 
-		System.out.println("car features = " + car);
+        //implementation here
 
-		for (int a = 1; a < 3; a++) {
-			System.out.println("features on index 1 and 2 = " + car.get(a));
-		}
+
 		//connect to db
-
-		Iterator<String> iterator = car.iterator();
-		System.out.println(iterator.next());
-		System.out.println(iterator.hasNext());
-
-		while (iterator.hasNext())
-			System.out.println("from while loop = " + iterator.next());
-
-		for (Object x : car) {
-			System.out.println(x);
-		}
 	
 
 	}

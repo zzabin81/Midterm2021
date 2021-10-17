@@ -13,25 +13,16 @@ public class Anagram {
         checkAnagram("MARY", "ARMY");
     }
     public static void checkAnagram(String word, String anagram){
-        if(isAnagram(word, anagram) == true){
-            System.out.println(anagram + " is an anagram of " + word);
-        }else{
-            System.out.println(anagram + " is not an anagram of " + word);
-        }
+
+        //implementation here...
+
+
     }
     private static boolean isAnagram(String word, String anagram){
-        if(word.length() != anagram.length()){
-            return false;
-        }
-        char[] chars = word.toCharArray();
-        for(char c : chars){
-            int index = anagram.indexOf(c);
-            if(index != -1){
-                anagram = anagram.substring(0,index) + anagram.substring(index +1, anagram.length());
-            }else{
-                return false;
-            }
-        }
+
+        //implementation here...
+
+
         return anagram.isEmpty();
     }
 }

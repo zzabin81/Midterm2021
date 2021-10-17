@@ -15,20 +15,13 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 	 * Implement Nested class.
 	 * Use Exception Handling.*/
 
-	public static String getCompanyName() {
-		return companyName;
-	}
-	public static void setCompanyName(String companyName) {
-		EmployeeInfo.companyName = companyName;
-	}
+	//implementation here...
+
 
 	/*declare few static and final fields and some non-static fields*/
-	private static String companyName;
-	private String name;
-	private int employeeID, employeeAge;
-	public int salary;
-	private int performance;
-	static String address;
+
+    //implementation here...
+
 
 	/*You must implement the logic for below 2 methods and
 	 * following 2 methods are prototype as well for other methods need to be design,
@@ -38,20 +31,8 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 	 * Must implement below constructor.
 	 */
 
-	public EmployeeInfo(int employeeId){
-		this.employeeID=employeeId;
-	}
+    //implementation here...
 
-	public EmployeeInfo(String name, int employeeId){
-		this.name = name;
-		this.employeeID = employeeId;
-	}
-
-	public EmployeeInfo(String name, int employeeID, int employeeAge) {
-		this.name = name;
-		this.employeeID = employeeID;
-		this.employeeAge = employeeAge;
-	}
 
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.
@@ -79,43 +60,17 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 
 	public static double calculateEmployeePension(int salary){
 		double total=0;
-		Scanner sc  = new Scanner(System.in);
-		System.out.println("Please enter start date in format (example: Jan,2018): ");
-		String joiningDate = sc.nextLine();
-		System.out.println("Please enter today's date in format (example: Jan,2018): ");
-		String todaysDate = sc.nextLine();
-		String convertedJoiningDate = DateConversion.convertDate(joiningDate);
-		String convertedTodaysDate = DateConversion.convertDate(todaysDate);
 
-		//implement numbers of year from above two dates
+        //implementation here...
 
-		//Calculate pension
-		String startYear = convertedJoiningDate.substring(convertedJoiningDate.length()-4);
-		String currentYear = convertedTodaysDate.substring(convertedTodaysDate.length()-4);
 
-		int start = Integer.parseInt(startYear);
-		int current = Integer.parseInt(currentYear);
-
-		//int totalYears = current-start;
-		if((current-start)==1){
-			total = salary*.05;
-		}else if((current-start)>=2){
-			total = salary*.1;
-		}else if((current-start)<=1) {
-			total = 0;
-		}
-
-		System.out.println("Employee Pension is = " +total+"$");
 		return total;
 	}
 
-	public String getName() {
-		return name;
-	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    //implementation here...
+
+
 
 	@Override
 	public int employeeId() {

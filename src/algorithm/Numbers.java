@@ -5,18 +5,15 @@ import databases.ConnectDB;
 import java.util.List;
 import java.util.Random;
 
-/*
- *Created by mrahman on 04/02/2018.
- */
 public class Numbers {
 
 	/*
 	 * Show all the different kind of sorting algorithm by applying into (num array).
-	 * Display the execution time for each sorting.Example in below.
+	 * Display the execution time for each sorting. Example in below.
 	 *
 	 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 	 *
-	 * At the end. After running all the sorting algo, come to a conclusion which one is suitable on given data set.
+	 * At the end. After running all the sorting algorithm, come to a conclusion which one is suitable on given data set.
 	 *
 	 */
 
@@ -41,7 +38,6 @@ public class Numbers {
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
 
 		//By following above, Continue for rest of the Sorting Algorithm....
-
 
 
 
