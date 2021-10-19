@@ -5,8 +5,8 @@ package databases;
  */
 public class User {
 
-    String name;
-    int id;
+    String name = "Ali";
+    int id = 60;
 
     public User(){}
 

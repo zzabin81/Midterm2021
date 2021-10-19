@@ -1,10 +1,30 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A.  programming language is a formal language comprising a set of strings
+that produce various kinds of machine code output.
+Programming languages are one kind of computer
+language, and are used in computer programming to implement algorithms.
 
 What jdk contains or composed of and define each components?
-A.
+
+A. The Java Development Kit (JDK) is a software development environment
+used for developing Java applications and applets.
+It includes the:
+JRE (Java Runtime Environment) or JRE:
+is a software layer that runs on top of a computer’s operating system software and provides the class
+libraries and other resources that a specific Java program needs to run.
+an interpreter/loader (java):
+Java interpreter is a computer program (system software)
+that implements the JVM(java virtual machine). It is responsible for reading and executing the program.
+A Java compiler:
+is a program that takes the text
+file work of a developer and compiles it into a platform-independent Java file.
+Java compilers include the Java Programming Language Compiler (javac),
+the GNU Compiler for Java (GCJ), the Eclipse Compiler for Java (ECJ) and Jikes.
+n archiver (jar):
+a documentation generator (javadoc) and
+other tools needed in Java development.
 
 What is IDE?
 A.
