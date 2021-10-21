@@ -1,55 +1,100 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. We need data structures because there are several advantages of using them,
+few of them are as follows:
+1. Data Organization: We need a proper way of organizing the data so that it can accessed
+efficiently when we need that particular data.
 
 What are the various operations that can be performed on different Data Structures?
-A.
+A. Following operations can be performed on the data structures:
+
+   Traversing
+   Searching
+   Inserting
+   Deleting
+   Sorting
 
 List out the areas in which data structures are applied extensively?
-A.
+A. Data structures are used in any program or software.
+   They are used in the areas of
+   Compiler Design
+   Operating System
+   DBMS
+   Graphics
+   Simulation
+   Numerical Analysis
+   Artificial Intelligence
 
 what is an Array?
-A.
+A. Array is a collection of similar type of elements that have contiguous memory location.
+In Java, array is an object the contains elements of similar data type.
+Array is index based, first element of the array is stored at 0 (zero) index.
 
 what is the difference between the Array and ArrayList?
-A.
+A. Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+We cannot change length of array once created in Java but ArrayList can be changed.
+We cannot store primitives in ArrayList, it can only store objects.
+But array can contain both primitives and objects in Java.
 
 what is LinkedList?
-A.
+A. Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.
+Each node consists of two fields, i.e., data and link.
 
 How is an Array different from Linked List?
-A.
+A.  Array works with a static memory.
+Here static memory means that the memory size is fixed and cannot be changed at the run time.
+    The Linked list works with dynamic memory.
+Here, dynamic memory means that the memory size can be changed at the run time according to our requirements.
 
 what is queue?
-A.
+A. 1. A queue can be defined as an ordered list which enables insert operations to be performed at one end called REAR and delete operations to be performed at another end called FRONT.
+
+   2. Queue is referred to be as First In First Out list.
+
+   3. For example, people waiting in line for a rail ticket form a queue.
 
 what is stack?
-A.
+A. A stack is a linear list data structure having a sequential collection of elements
+in which elements are added on the top of the stack like piles of books, etc.
+The new item can be added, or existing item can be removed only from the top of the stack.
+Stack is considered as a dynamic data structure because the size of the stack can be changed at the run time.
+The two operations can be performed on the stack, i.e., push and pop.
+Here, push operation means that a new item is inserted into the stack,
+whereas the pop operation means that the existing item is removed from the stack.
 
 what is FIFO and LIFO?
-A.
+A.FIFO (First in First Out)
+LIFO (Last In First Out)
 
 what is the order of complexity?
 A.
 
 what is the best case to search an element from an array?
-A.
+A. Sequential search is the best way to find a value in an unsorted array.
+1 But,if the array is sorted in increasing order by value, then we can use a process called binary search.
 
 what is the worst case to search an element from an array?
 A.
 
 what is tree in data structure?
-A.
+A. A tree data structure is defined as a collection of objects or entities known as nodes
+ that are linked together to represent or simulate hierarchy.
 
 what is graph in data structure?
-A.
+A. HashMap is non synchronized. It is not-thread safe and can't be shared
+between many threads without proper synchronization code.
+HashMap is a new class introduced in JDK 1.2.
 
-what is the difference between the HashTable and HashMap?
-A.
+
+A. Hashtable is synchronized. It is thread-safe and can be shared with many threads.
+   Hashtable is a legacy class.
 
 What are the major data structures used in the following areas
-A.
+A. The major data structures used are as follows:
+   · RDBMS – Array (i.e. Array of structures)
+   · Network data model – Graph
+   · Hierarchical data model – Trees
 
 How HashMap works in java?
 A.
@@ -70,10 +115,14 @@ What is Recursion?
 A.
 
 What are linear and non linear data Structures?
-A.
+A. In a linear data structure, data elements are arranged in a
+linear order where each and every elements are attached to its previous and next adjacent.
+In a non-linear data structure, data elements are attached in hierarchically manner.
 
 What is Big-(O)-notation?
-A.
+A. It represents the upper bound of the runtime of an algorithm.
+Big O Notation's role is to calculate the longest time an algorithm can take for its execution,
+i.e., it is used for calculating the worst-case time complexity of an algorithm.
 
 Outlined different kind of sorting algorithm with time complexity?
 A.
