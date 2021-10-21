@@ -129,26 +129,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseQueue">
+  <component name="RunManager" selected="Application.UseMap">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
       <option name="HEIGHT" value="0" />
       <module />
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.Fibonacci" />
-      <module name="MidtermCodingExam" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.Numbers" />
@@ -180,6 +166,20 @@
     </configuration>
     <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
+      <module name="MidtermCodingExam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseMap" />
       <module name="MidtermCodingExam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -244,19 +244,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.UnitTestSorting" />
       <item itemvalue="Application.Numbers" />
       <item itemvalue="Application.UseArrayList" />
       <item itemvalue="Application.UseQueue" />
+      <item itemvalue="Application.UseMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseMap" />
         <item itemvalue="Application.UseQueue" />
         <item itemvalue="Application.UseArrayList" />
         <item itemvalue="Application.Numbers" />
         <item itemvalue="Application.UnitTestSorting" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
