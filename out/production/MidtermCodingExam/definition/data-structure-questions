@@ -8,7 +8,6 @@ efficiently when we need that particular data.
 
 What are the various operations that can be performed on different Data Structures?
 A. Following operations can be performed on the data structures:
-
    Traversing
    Searching
    Inserting
@@ -97,22 +96,34 @@ A. The major data structures used are as follows:
    · Hierarchical data model – Trees
 
 How HashMap works in java?
-A.
+A.  it works based on the hashing principle.
+Hashing is the mechanism of assigning the unique code to a variable or attribute
+using some algorithm to enable easy retrieval.
 
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A.
+A. The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of
+an array at an index which is not present in the array.
+In other words, the index may be negative or exceed the size of an array.
 
 What are the different ways of copying an array into another array?
-A.
+A. How to Copy One Array to Another in Java
+   Manually
+   Arrays.copyOf()
+   System.arraycopy()
+   Object.clone()
 
 What is difference between an array and a linked list?
-A.
+A. An array is a collection of elements of a similar data type.
+A linked list is a collection of objects known as a node where node consists of two parts,
+ i.e., data and address.
 
 What is DFS and BFS?
-A.
+A. DFS stands for Depth First Search.
+BFS stands for Breadth First Search. It is also known as level order traversal.
 
 What is Recursion?
-A.
+A. Recursion in java is a process in which a method calls itself continuously.
+A method in java that calls itself is called recursive method.
 
 What are linear and non linear data Structures?
 A. In a linear data structure, data elements are arranged in a
