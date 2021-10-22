@@ -5,6 +5,10 @@ package problems;
  */
 public class Permutation {
 
+
+    public Permutation(String remaining, String s) {
+    }
+
     public static void main(String[] args) {
 
         /*
@@ -19,6 +23,17 @@ public class Permutation {
 
         //implementation here...
 
+        if (prefix.length() == 0) {
+            System.out.print(str + " ");
+            return;
+        }
+
+        for (int i = 0; i < prefix.length(); i++) {
+            char toAppendToPermutation = prefix.charAt(i);
+            String remaining = prefix.substring(0, i) + prefix.substring(i + 1);
+
+            new Permutation(remaining, str + toAppendToPermutation);
+        }
 
     }
 }
