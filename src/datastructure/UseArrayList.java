@@ -19,39 +19,37 @@ public class UseArrayList {
 		 */
 
         //implementation here
-
-		List<Integer> ar = new ArrayList<>();
-
-		ar.add(4444);
-		ar.add(2222);
-		ar.add(9999);
-		ar.add(8888);
-		ar.add(2121);
-		ar.add(6565);
-		ar.add(9000);
-		ar.add(1888);
+		List<Integer> ir = new ArrayList<>();
+		ir.add(3333);
+		ir.add(1111);
+		ir.add(5555);
+		ir.add(6666);
+		ir.add(2121);
+		ir.add(6565);
+		ir.add(9090);
+		ir.add(5899);
 		//Print Array List
-		System.out.println("The elements of the ArrayList are: " + ar);
+		System.out.println("The elements of the ArrayList are: " + ir);
 
 		//Using get method to peek the first element
-		System.out.println("Arrays peek element: " + ar.get(0));
+		System.out.println("Arrays peek element: " + ir.get(0));
 
 		//remove element from ArrayList
-		System.out.println("Remove element at index 3: " + ar.remove(3));
+		System.out.println("Remove element at index 3: " + ir.remove(3));
 
 		//Retrieving elements from ArrayList
-		System.out.println("Re-retrieving elements from ArrayList: " + ar);
+		System.out.println("Re-retrieving elements from ArrayList: " + ir);
 
 		// retrieving data Using forEach loop
 		System.out.print("Re-retrieving elements from ArrayList: ");
-		for (Integer in : ar) {
+		for (Integer in : ir) {
 			System.out.print(" " + in);
 		}
 		System.out.println();
 
 		//retrieving data using iterator
 		System.out.print("Re-retrieving elements from ArrayList: ");
-		Iterator it = ar.iterator();
+		Iterator it = ir.iterator();
 		while (it.hasNext()) {
 			Integer i = (Integer) it.next();
 			System.out.print(" " + i);
@@ -59,10 +57,10 @@ public class UseArrayList {
 
 		System.out.println();
 
-		Collections.sort(ar);
-		System.out.println(ar);
-		List list = new ArrayList();
-		list = ar;
+		Collections.sort(ir);
+		System.out.println(ir);
+		List value = new ArrayList();
+		value = ir;
 
 		//connect to db
 	

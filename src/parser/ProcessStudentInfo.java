@@ -35,8 +35,8 @@ public class ProcessStudentInfo {
 
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
 		//Path of XML data to be read.
-		String pathSelenium = System.getProperty("user.dir") + "/src/parser/selenium.xml";
-		String pathQtp = System.getProperty("user.dir") + "/src/parser/qtp.xml";
+		String pathS = System.getProperty("user.dir") + "/src/parser/selenium.xml";
+		String pathQ = System.getProperty("user.dir") + "/src/parser/qtp.xml";
 		String tag = "id";
 
 
@@ -45,25 +45,25 @@ public class ProcessStudentInfo {
 
 		/*Declare 2 ArrayList with Student data type to store Selenium student into one of the ArrayList and
 				  Qtp student into another ArrayList. */
-		List<Student> seleniumStudents = new ArrayList<Student>();
-		List<Student> qtpStudents = new ArrayList<Student>();
+		List<Student> seleniumZeBe = new ArrayList<Student>();
+		List<Student> qtpZeBe = new ArrayList<Student>();
 
 
 		//Parse Data using parseData method and then store data into Selenium ArrayList.
 		XmlReader xmlReader = new XmlReader();
-		seleniumStudents = xmlReader.parseData(tag, pathSelenium);
+		seleniumZeBe = xmlReader.parseData(tag, pathS);
 
 		//Parse Data using parseData method and then store data into Qtp ArrayList.
-		qtpStudents = xmlReader.parseData(tag, pathQtp);
+		qtpZeBe = xmlReader.parseData(tag, pathQ);
 		//add Selenium ArrayList data into map.
-		list.put("Selenium Students", seleniumStudents);
+		list.put("Selenium Students", seleniumZeBe);
 		//add Qtp ArrayList data into map.
-		list.put("QTP Students", qtpStudents);
+		list.put("QTP Students", qtpZeBe);
 
 		//Retrieve map data and display output.
 		for (Map.Entry<String, List<Student>> value : list.entrySet()) {
 			List<Student> students = list.get(value.getKey());
-			System.out.println("\n" + value.getKey() + " Students");
+			System.out.println("\n" + value.getKey() + " ZeBe");
 			for (Student s : students) {
 				String id = s.getId();
 				String firstname = s.getFirstName();

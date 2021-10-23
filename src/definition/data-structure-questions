@@ -74,7 +74,8 @@ A. Sequential search is the best way to find a value in an unsorted array.
 1 But,if the array is sorted in increasing order by value, then we can use a process called binary search.
 
 what is the worst case to search an element from an array?
-A.
+A. The worst case complexity is O (n/2) (equivalent to O (n)) when element
+ is in the middle or not present in the array.
 
 what is tree in data structure?
 A. A tree data structure is defined as a collection of objects or entities known as nodes
@@ -136,7 +137,11 @@ Big O Notation's role is to calculate the longest time an algorithm can take for
 i.e., it is used for calculating the worst-case time complexity of an algorithm.
 
 Outlined different kind of sorting algorithm with time complexity?
-A.
+A. ALGORITHM	    TIME COMPLEXITY	           TIME COMPLEXITY	     TIME COMPLEXITY
+   -	            Best	                    Average	                Worst
+   Selection Sort	Ω (n^2)	                    θ (n^2)	                O (n^2)
+   Bubble Sort	    Ω (n)	                    θ (n^2)	                O (n^2)
+   Insertion Sort	Ω (n)	                    θ (n^2)	                O (n^2)
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
 A.

@@ -12,7 +12,7 @@ public class MakePyramid {
         //                * * * * *
         //               * * * * * *
         //implementation here...
-        int i, space, rows, n = 0;
+        int i, space, rows, k = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Number of Rows : ");//determines height of pyramid
         rows = sc.nextInt();
@@ -21,11 +21,11 @@ public class MakePyramid {
             {
                 System.out.print(" ");
             }
-            while (n != (2 * i - 1)) {
+            while (k != (2 * i - 1)) {
                 System.out.print("* ");
-                n++;
+                k++;
             }
-            n = 0;
+            k = 0;
             System.out.println();
         }
     }

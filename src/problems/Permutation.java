@@ -24,13 +24,12 @@ public class Permutation {
         //implementation here...
 
         if (prefix.length() == 0) {
-            System.out.print(str + " ");
+            System.out.print(str+" ");
             return;
         }
-
-        for (int i = 0; i < prefix.length(); i++) {
-            char toAppendToPermutation = prefix.charAt(i);
-            String remaining = prefix.substring(0, i) + prefix.substring(i + 1);
+        for (int k = 0; k < prefix.length(); k++) {
+            char toAppendToPermutation = prefix.charAt(k);
+            String remaining = prefix.substring(0, k) + prefix.substring(k + 1);
 
             new Permutation(remaining, str + toAppendToPermutation);
         }

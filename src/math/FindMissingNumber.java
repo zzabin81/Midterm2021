@@ -13,9 +13,9 @@ public class FindMissingNumber {
          */
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 10};
         int N = 10;
-        int idealSum = (N * (N + 1)) / 2;
+        int totalSum = (N * (N + 1)) / 2;
         int sum = calculateSum(numbers);
-        int missingNumber = idealSum - sum;
+        int missingNumber = totalSum - sum;
         System.out.println("The number which is missing from array is: ");
         System.out.println(missingNumber);
     }

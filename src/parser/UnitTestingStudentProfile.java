@@ -1,4 +1,4 @@
-package parser;//done=======
+package parser;
 import org.testng.Assert;
 
 public class UnitTestingStudentProfile {
@@ -6,10 +6,10 @@ public class UnitTestingStudentProfile {
         //Apply Unit Test into all the methods in this package.
 
         //implementation here...
-        Student student = new Student("nass", "ami", "gold", "454");
+        Student student = new Student("Rabhi", "ami", "Silver", "500");
 
         try {
-            Assert.assertEquals(student.getFirstName(), "nass");
+            Assert.assertEquals(student.getFirstName(), "Rabhi");
             System.out.println("Test Passed getFirstName");
         } catch (AssertionError as) {
             System.out.println("Test Failed getFirstName");
@@ -25,9 +25,8 @@ public class UnitTestingStudentProfile {
             System.out.println(as.getMessage());
             System.out.println(as.getStackTrace());
         }
-
         try {
-            Assert.assertEquals(student.getId(), "45");
+            Assert.assertEquals(student.getId(), "100");
             System.out.println("Test passed getId");
         } catch (AssertionError as) {
             System.out.println("Test Failed getId");
@@ -36,7 +35,7 @@ public class UnitTestingStudentProfile {
         }
 
         try {
-            Assert.assertEquals(student.getScore(), "gold");
+            Assert.assertEquals(student.getScore(), "Silver");
             System.out.println("Test passed getScore");
         } catch (AssertionError as) {
             System.out.println("Test Failed getScore");
@@ -45,7 +44,7 @@ public class UnitTestingStudentProfile {
         }
 
         try {
-            Assert.assertEquals(student.toString(), "Student(id= 454)nass ami  Grade = gold");
+            Assert.assertEquals(student.toString(), "Student(id= 500)Rabhi ami  Grade = Silver");
             System.out.println("Test passed toString");
         } catch (AssertionError as) {
             System.out.println("Test Failed toString");

@@ -13,12 +13,12 @@ public class Factorial {
          */
         //implementation here...
         int i;
-        int fact = 1;
+        int value = 1;
         int num = 5;
         for (i=1; i<= num; i++) {
-            fact = fact * i;
+            value = value * i;
         }
-      System.out.println("factorial of " + num + "is: " + fact);
+      System.out.println("factorial of " + num + "is: " + value);
     }
 
 }

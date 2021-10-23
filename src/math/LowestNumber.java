@@ -14,18 +14,18 @@ public class LowestNumber {
 		 */
 		//implementation here...
 		//an array
-		int[] arr = {33, 67, 22, 59, 15, 44};
+		int[] arr = {13, 47, 33, 78, 35, 94};
 		//initialize with the largest possible value
 		int lowest = Integer.MAX_VALUE;
 		//find the lowest number of array
-		int i = 0;
-		    while(i<arr.length) {
+		int k = 0;
+		    while(k<arr.length) {
 			//check if the lowest number is greater than element
-			if(lowest>arr[i]) {
+			if(lowest>arr[k]) {
 				//update the lowest number
-				lowest=arr[i];
+				lowest=arr[k];
 			}
-			i++;
+			k++;
 		}
 		System.out.println("The lowest number is : "+ lowest);
 	}

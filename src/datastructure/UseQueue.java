@@ -39,8 +39,6 @@ public class UseQueue {
 		for (String a : queue) {
 			System.out.println(a);
 		}
-
-
 	}
 
 }

@@ -29,8 +29,6 @@ public class UnitTestSorting {
         } catch (Exception ex) {
             System.out.println("Bubble Sort Unit Test Failed");
         }
-
-
         try {
             int[] actual = sort.mergeSort(unSortedArray);
             Assert.assertEquals(actual, sortedArray);
@@ -46,8 +44,6 @@ public class UnitTestSorting {
         } catch (Exception ex) {
             System.out.println("Quick Sort Unit Test Failed");
         }
-
-
         try {
             int[] actual = sort.heapSort(unSortedArray);
             Assert.assertEquals(actual, sortedArray);
@@ -55,8 +51,6 @@ public class UnitTestSorting {
         } catch (Exception ex) {
             System.out.println("Heap Sort Unit Test Failed");
         }
-
-
         try {
             int[] actual = sort.bucketSort(unSortedArray);
             Assert.assertEquals(actual, sortedArray);
@@ -64,8 +58,6 @@ public class UnitTestSorting {
         } catch (Exception ex) {
             System.out.println("Bucket Sort Unit Test Failed");
         }
-
-
         try {
             int[] actual = sort.shellSort(unSortedArray);
             Assert.assertEquals(actual, sortedArray);
@@ -73,8 +65,6 @@ public class UnitTestSorting {
         } catch (Exception ex) {
             System.out.println("Shell Sort Unit Test Failed");
         }
-
-
     }
 }
 

@@ -14,20 +14,20 @@ public class PrimeNumber {
 		 */
 
 		//implementation here...
-		int i = 0;
+		int k = 0;
 		int num = 0;
 		String primeNumbers = "";
 
-		for (i = 1; i < 100000; i++) { //i could not print up to 1 million
-			//i could not print up to 1 million my System keep runing
-			int counter = 0;
-			for (num = i; num >=1; num--){
-				if(i%num == 0){
-					counter = counter+1;
+		for (k = 1; k < 100000; k++) { //k could not print up to 1 million
+			//k could not print up to 1 million my System keep runing
+			int value = 0;
+			for (num = k; num >=1; num--){
+				if(k%num == 0){
+					value = value+1;
 				}
 			}
-			if (counter == 2){
-				primeNumbers = primeNumbers + i + " ";
+			if (value == 2){
+				primeNumbers = primeNumbers + k + " ";
 			}
 		}
 		System.out.println("prime numbers are: ");

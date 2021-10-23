@@ -17,42 +17,37 @@ public class UseMap {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 */
 
-
 		//implementation here
+		Map<String, String> carInfo = new HashMap<String, String>();
+		carInfo.put("Make", "Toyota");
+		carInfo.put("Module", "Camery");
+		carInfo.put("Year", "2010");
 
-		Map<String, String> carinfo = new HashMap<String, String>();
-		carinfo.put("Make", "Toyoya");
-		carinfo.put("Module", "Camery");
-		carinfo.put("Year", "2010");
+		System.out.println(carInfo.get("Make"));
 
-		System.out.println(carinfo.get("Make"));
-
-		for (Map.Entry entry : carinfo.entrySet()) {
+		for (Map.Entry entry : carInfo.entrySet()) {
 			System.out.println(entry.getKey() + " : " + entry.getValue());
 		}
-
-
 //Add List<String> into a Map. Like, Map<String, List<string>> list = new HashMap<String, List<String>>();
 
-		List<String> hondaCars = new ArrayList<>();
-		hondaCars.add("pilot");
-		hondaCars.add("civic");
+		List<String> CarHonda = new ArrayList<>();
+		CarHonda.add("pilot");
+		CarHonda.add("civic");
 
-		List<String> toyotacars = new ArrayList<>();
-		toyotacars.add("corola");
-		toyotacars.add("camery");
-		toyotacars.add("yaris");
+		List<String> CarToyota = new ArrayList<>();
+		CarToyota.add("corola");
+		CarToyota.add("camery");
+		CarToyota.add("yaris");
 
 		Map<String, List<String>> cars = new HashMap<>();
-		cars.put("honda: ", hondaCars);
-		cars.put("toyota:", toyotacars);
+		cars.put("honda: ", CarHonda);
+		cars.put("toyota:", CarToyota);
 
 		System.out.println(cars.get("honda: "));
 
 		for (Map.Entry entry : cars.entrySet()) {
 			System.out.println(entry.getKey() + " " + entry.getValue());
 		}
-
 		//Use For Each loop  to retrieve data.
 		System.out.println("             ");
 		System.out.println("Each loop to retrieve data");
@@ -62,7 +57,6 @@ public class UseMap {
 				System.out.println("Value: " + str1);
 			}
 		}
-
 		//while loop with Iterator to retrieve data
 		System.out.println("using while loop with Iterator to retrieve data");
 		Iterator itr = cars.entrySet().iterator();

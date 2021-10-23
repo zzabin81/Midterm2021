@@ -1,4 +1,4 @@
-package algorithm;   //done =======
+package algorithm;
 
 public class Sort {
 
@@ -7,20 +7,17 @@ public class Sort {
      * Please implement all the sorting algorithm. Feel free to add helper methods.
      * Store all the sorted data into one of the databases.
      */
-
-
-
     public int[] selectionSort(int [] array){
         final long startTime = System.currentTimeMillis();
-        int [] list = array;
+        int [] value = array;
 
         for(int i=0; i<array.length; i++){
             for(int j=i+1; j<array.length; j++){
                 if(array[j]<array[i]){
 
-                    int temp = array[j];
+                    int rain = array[j];
                     array[j] = array[i];
-                    array[i] = temp;
+                    array[i] = rain;
                 }
             }
 
@@ -29,20 +26,20 @@ public class Sort {
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
-        return list;
+        return value;
     }
 
     public int[] insertionSort(int [] array){
         final long startTime = System.currentTimeMillis();
-        int [] list = array;
+        int [] value = array;
         //implement here
-        int temp;
+        int rain;
         for(int i=0;i<array.length;i++){
             for(int j=i;j>0;j--){
                 if(array[j]<array[j-1]){
-                    temp=array[j];
+                    rain=array[j];
                     array[j]=array[j-1];
-                    array[j-1]=temp;
+                    array[j-1]=rain;
                 }
             }
         }
@@ -50,42 +47,42 @@ public class Sort {
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
-        return list;
+        return value;
     }
 
     public int[] bubbleSort(int [] array){
-        int [] list = array;
+        int [] value = array;
         //implement here
 
         final long startTime = System.currentTimeMillis();
         for(int i=0;i<array.length-1;i++){
             for(int j=0;j<array.length-1;j++){
                 if(array[j]>array[j+1]){
-                    int temp=array[j];
+                    int rain=array[j];
                     array[j]=array[j+1];
-                    array[j+1]=temp;
+                    array[j+1]=rain;
                 }
             }
         }
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
-        return list;
+        return value;
     }
 
-    private int [] tempMergArr;
+    private int [] rainMergArr;
     public int [] mergeSort(int [] array){
-        int [] list = array;
+        int [] value = array;
         //implement here
         final long startTime = System.currentTimeMillis();
-        this.arr = list;
-        this.length = list.length;
-        this.tempMergArr = new int[length];
+        this.arr = value;
+        this.length = value.length;
+        this.rainMergArr = new int[length];
         doMergeSort(0, length - 1);
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
-        return list;
+        return value;
     }
 
     private void doMergeSort(int lowerIndex, int higherIndex) {
@@ -101,23 +98,23 @@ public class Sort {
     private void mergeParts(int lowerIndex, int middle, int higherIndex) {
 
         for (int i = lowerIndex; i <= higherIndex; i++) {
-            tempMergArr[i] = arr[i];
+            rainMergArr[i] = arr[i];
         }
         int i = lowerIndex;
         int j = middle + 1;
         int k = lowerIndex;
         while (i <= middle && j <= higherIndex) {
-            if (tempMergArr[i] <= tempMergArr[j]) {
-                arr[k] = tempMergArr[i];
+            if (rainMergArr[i] <= rainMergArr[j]) {
+                arr[k] = rainMergArr[i];
                 i++;
             } else {
-                arr[k] = tempMergArr[j];
+                arr[k] = rainMergArr[j];
                 j++;
             }
             k++;
         }
         while (i <= middle) {
-            arr[k] = tempMergArr[i];
+            arr[k] = rainMergArr[i];
             k++;
             i++;
         }
@@ -128,18 +125,18 @@ public class Sort {
     private  int length;
 
     public int [] quickSort(int [] array){
-        int [] list = array;
+        int [] value = array;
         //implement here
 
         final long startTime = System.currentTimeMillis();//
-        this.arr = list;
-        length = list.length;
+        this.arr = value;
+        length = value.length;
         quickSort(0,length-1);
 
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
-        return list;
+        return value;
     }
 
     private void quickSort(int lowerIndex, int higherIndex) {
@@ -171,27 +168,27 @@ public class Sort {
     }
 
     private void exchangeNumbers(int i, int j) {
-        int temp = arr[i];
+        int rain = arr[i];
         arr[i] = arr[j];
-        arr[j] = temp;
+        arr[j] = rain;
     }
 
 
     public int [] heapSort(int [] array){
-        int [] list = array;
+        int [] value = array;
         //implement here
         final long startTime = System.currentTimeMillis();
 
-        int n = list.length;
+        int n = value.length;
 
         for (int i = n / 2 - 1; i >= 0; i--)
             heavy(array, n, i);
 
         for (int i=n-1; i>=0; i--)
         {
-            int temp = array[0];
+            int rain = array[0];
             array[0] = array[i];
-            array[i] = temp;
+            array[i] = rain;
 
             heavy(array, i, 0);
         }
@@ -199,7 +196,7 @@ public class Sort {
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
-        return list;
+        return value;
     }
 
     void heavy(int arr[], int n, int i)
@@ -225,7 +222,7 @@ public class Sort {
     }
 
     public int [] bucketSort(int [] array){
-        int [] list = array;
+        int [] value = array;
         //implement here
         final long startTime = System.currentTimeMillis();
 
@@ -248,7 +245,7 @@ public class Sort {
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
 
-        return list;
+        return value;
     }
 
     public int getMax(int[] array){
@@ -265,13 +262,13 @@ public class Sort {
 
 
     public int [] shellSort(int [] array){
-        int [] list = array;
+        int [] value = array;
         //implement here
 
 
         final long startTime = System.currentTimeMillis();
         int inner, outer;
-        int temp;
+        int rain;
         int h = 1;
         while(h <= array.length/3)
             h = h*3 + 1;
@@ -279,21 +276,21 @@ public class Sort {
         {
             for(outer=h; outer<array.length; outer++)
             {
-                temp = list[outer];
+                rain = value[outer];
                 inner = outer;
-                while(inner > h-1 && list[inner-h] >= temp)
+                while(inner > h-1 && value[inner-h] >= rain)
                 {
-                    list[inner] = list[inner-h];
+                    value[inner] = value[inner-h];
                     inner -= h;
                 }
-                list[inner] = temp;
+                value[inner] = rain;
             }
             h = (h-1) / 3;
         }
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
-        return list;
+        return value;
     }
 
     public static void printSortedArray(int [] array){
