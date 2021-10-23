@@ -3,26 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9771989b-51b3-4e7c-b47c-ddb973a42c7b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/FindMissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/LowestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/LowestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/MakePyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/MakePyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/Pattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/PrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/UnitTestingMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/UnitTestingMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/DuplicateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/DuplicateWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/UnitTestingStringProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

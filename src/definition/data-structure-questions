@@ -1,10 +1,8 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A. We need data structures because there are several advantages of using them,
-few of them are as follows:
-1. Data Organization: We need a proper way of organizing the data so that it can accessed
-efficiently when we need that particular data.
+A. In order to locate and retrieve  data it is required to have data in a structured form. Structured form of data makes
+   retrieval and manipulation easy.
 
 What are the various operations that can be performed on different Data Structures?
 A. Following operations can be performed on the data structures:
@@ -67,7 +65,8 @@ A.FIFO (First in First Out)
 LIFO (Last In First Out)
 
 what is the order of complexity?
-A.
+A.For input is of size N, we can say that the algorithm will finish at
+ O(1), O(N), O(N^2), O(N^3), O(N*log(N)) etc.
 
 what is the best case to search an element from an array?
 A. Sequential search is the best way to find a value in an unsorted array.
@@ -144,6 +143,9 @@ A. ALGORITHM	    TIME COMPLEXITY	           TIME COMPLEXITY	     TIME COMPLEXITY
    Insertion Sort	Ω (n)	                    θ (n^2)	                O (n^2)
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
-A.
+A. a)In terms of Accessing element.
+     b)In terms of Inserting element.
+     c)In terms of Searching element.
+     d)In terms of Removing element.
 
 
